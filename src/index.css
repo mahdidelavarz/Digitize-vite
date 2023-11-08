@@ -1,0 +1,92 @@
+@import url("./fonts/fonts.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: tanha;
+  direction: rtl;
+}
+
+#react-burger-menu-btn {
+  width: 35px !important;
+  height: 35px !important;
+  right: 16px !important;
+  top: 30px !important;
+}
+
+.bm-overlay {
+  top: 0;
+  left: 0;
+}
+
+.bm-burger-bars {
+  display: none;
+}
+
+/* .active {
+  color: #e11d48;
+} */
+.active{
+ color: yellow;
+}
+@keyframes fadeShow {
+  from {
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes sliderAnimation {
+  0% {
+    transform: scale(1);
+    rotate: 0deg;
+  }
+
+  90% {
+    rotate: 1deg;
+    transform: scale(1.06);
+  }
+
+  100% {
+    rotate: 0deg;
+    transform: scale(1);
+  }
+}
+.sliderAnimation {
+  animation: sliderAnimation 4s ease-in-out infinite;
+}
+.fadeShow {
+  animation: fadeShow 0.5s;
+}
+.hideScrollbar {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.hideScrollbar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #718096;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #cbd5e0;
+}
+
+.backImg{
+  background-image: url(https://my.uupload.ir/dl/mbGR4KBn);
+}

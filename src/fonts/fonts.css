@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Tanha';
+  src: url('boys-font/tanha-font-v0.9/Tanha.eot');
+  src: url('boys-font/tanha-font-v0.9/Tanha.eot') format('embedded-opentype'),
+       url('boys-font/tanha-font-v0.9/Tanha.woff') format('woff'),
+       url('boys-font/tanha-font-v0.9/Tanha.ttf') format('truetype');
+  font-weight: bold;
+}
