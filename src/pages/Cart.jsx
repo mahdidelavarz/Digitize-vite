@@ -98,7 +98,7 @@ const Cart = () => {
                   </div> : <CartLoading />}
                 </>
               )
-            }) : <div className="col-span-12 h-auto"><img src="https://my.uupload.ir/dl/0j5DVzyj" alt="product" className="w-full h-[75vh] object-scale-down"></img></div>}
+            }) : <div className="col-span-12 h-auto"><img src="./empty.png" alt="product" className="w-full h-[75vh] object-scale-down"></img></div>}
           </div>
 
           <div className={`fixed lg:static bottom-0  lg:flex h-auto lg:h-96 w-full lg:w-1/3 bg-white dark:bg-gray-700 mt-8 border-2 border-solid rounded-lg flex-col justify-between dark:border-slate-600 p-4 ${!cart.length && 'hidden'}`} >

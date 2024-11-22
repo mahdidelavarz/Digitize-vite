@@ -187,7 +187,7 @@ const Interests = () => {
         ) : (
           <div className="col-span-12 h-auto dark:bg-gray-700">
             <img
-              src="https://my.uupload.ir/dl/0j5DVzyj"
+              src="./empty.png"
               alt="empty"
               className="w-full h-auto  object-scale-down mt-4 "
             ></img>
