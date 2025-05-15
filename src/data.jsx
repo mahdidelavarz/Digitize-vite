@@ -803,7 +803,7 @@ export const products = [
     existed: "موجود در انبار دیجی تایز",
     logo: "https://dkstatics-public.digikala.com/digikala-static/40103386d101974d18b40cee05e8d62823a657fa_1678547065.png",
     price: 19800000,
-    image: "https://my.uupload.ir/dl/VX71EJjW",
+    image: "./OIP.jfif",
     to: "/product/34",
     score: 3.9,
     category: "airPod",

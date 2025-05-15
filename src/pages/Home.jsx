@@ -7,7 +7,7 @@ import FooterMenu from '../components/menu/FooterMenu';
 import HeaderSlide from '../components/swiper-slides/HeaderSlide';
 import DiscountSlide from '../components/swiper-slides/DiscountSlide';
 import useLoading from "../hooks/useLoading";
-import {HomeSkeleton} from "../components/common/Loading";
+import { HomeSkeleton } from "../components/common/Loading";
 
 
 const Home = () => {
@@ -46,7 +46,7 @@ const Home = () => {
                 <NavLink to={"/watch"} className='flex flex-col items-center'>
                   <div className="w-36 h-36 relative  bg-slate-50  ring-2 ring-slate-600 dark:ring-slate-300 flex justify-center items-center rounded-full shadow-xl shadow-slate-500 dark:shadow-slate-300 dark:shadow-lg dark:bg-gray-600 ">
                     <div className='w-20 h-20 absolute rounded-full -top-3 -right-3 bg-white ring-2 ring-slate-500 dark:bg-gray-600 dark:ring-slate-300'>
-                      <img src="../../public/applewatch.png" alt="" />
+                      <img src="./applewatch.png" alt="" />
                     </div>
                     <img className=' object-cover' src="./applewatch2.png" alt="watch" />
                   </div>
@@ -56,9 +56,9 @@ const Home = () => {
               <div className="col-span-6 cursor-pointer lg:col-span-3 flex flex-col justify-center items-center">
                 <div className="w-36 h-36  bg-slate-50 relative  ring-2 ring-slate-600 dark:ring-slate-300 flex justify-center items-center rounded-full shadow-xl shadow-slate-500 dark:shadow-slate-300 dark:shadow-lg dark:bg-gray-600 ">
                   <div className='w-20 h-20 absolute rounded-full -top-3 -right-3 bg-white ring-2 ring-slate-500 dark:bg-gray-600 dark:ring-slate-300'>
-                    <img src="./d70b775a5360d537002581bca9fc1555.png" alt="" />
+                    <img src="./headphone2-removebg-preview.png" className="rounded-full" alt="" />
                   </div>
-                  <img className='object-contain w-40 h-40' src="./d70b775a5360d537002581bca9fc1555.png" alt="phone" />
+                  <img className='object-contain w-40 h-40' src="./public/OIP-removebg-preview.png" alt="phone" />
                 </div>
                 <span className="text-xs md:text-sm mt-3 dark:text-slate-200">هدفون و هندزفری</span>
               </div>
