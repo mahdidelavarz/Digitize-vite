@@ -787,8 +787,6 @@ export const products = [
     storage: 1000,
     system: 1,
     battery: 5000,
-    screen: 6.8,
-    screen: 6.8,
   },
   {
     id: 34,
@@ -813,7 +811,6 @@ export const products = [
     storage: 1000,
     system: 1,
     battery: 4000,
-    screen: 7.6,
   },
   {
     id: 35,

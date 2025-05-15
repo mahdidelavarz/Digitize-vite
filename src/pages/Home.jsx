@@ -58,7 +58,7 @@ const Home = () => {
                   <div className='w-20 h-20 absolute rounded-full -top-3 -right-3 bg-white ring-2 ring-slate-500 dark:bg-gray-600 dark:ring-slate-300'>
                     <img src="./headphone2-removebg-preview.png" className="rounded-full" alt="" />
                   </div>
-                  <img className='object-contain w-40 h-40' src="./public/OIP-removebg-preview.png" alt="phone" />
+                  <img className='object-contain w-40 h-40' src="./OIP-removebg-preview.png" alt="phone" />
                 </div>
                 <span className="text-xs md:text-sm mt-3 dark:text-slate-200">هدفون و هندزفری</span>
               </div>
